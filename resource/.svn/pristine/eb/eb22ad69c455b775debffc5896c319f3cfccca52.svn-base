@@ -1,0 +1,10 @@
+id,name,desc,effect_1.key,effect_1.val
+1,领导力,一星：额外增加2个水手位,ADD_SAILOR_COUNT,1
+2,领导力,二星：额外增加4个水手位,ADD_SAILOR_COUNT,2
+3,领导力,三星：额外增加6个水手位,ADD_SAILOR_COUNT,3
+4,管理力,一星：额外增加15%吨位,ADD_SHIP_TONNAGE,150
+5,管理力,二星：额外增加30%吨位,ADD_SHIP_TONNAGE,300
+6,管理力,三星：额外增加50%吨位,ADD_SHIP_TONNAGE,500
+7,后勤力,一星：补给上限增加30%,ADD_1_SUPPLY_MAX,300
+8,后勤力,二星：补给恢复速度增加15%,ADD_SUPPLY_INCREASE,150
+9,后勤力,三星：恢复速度增加30%,ADD_SUPPLY_INCREASE,300

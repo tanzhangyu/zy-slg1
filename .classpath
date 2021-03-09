@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/netty-all-4.1.53.Final.jar" sourcepath="lib/netty-all-4.1.53.Final-sources.jar"/>
+	<classpathentry kind="lib" path="lib/netty-all-4.1.53.Final-sources.jar"/>
+	<classpathentry kind="lib" path="lib/logback-classic-1.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/logback-classic-1.2.3-sources.jar"/>
+	<classpathentry kind="lib" path="lib/logback-core-1.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/logback-core-1.2.3-sources.jar"/>
+	<classpathentry kind="lib" path="lib/logstash-logback-encoder-4.3.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/fastjson-1.2.58.jar" sourcepath="C:/tanZhangyu/tools/maven/repository/com/alibaba/fastjson/1.2.58/fastjson-1.2.58-sources.jar"/>
+	<classpathentry kind="lib" path="lib/fastjson-1.2.58-sources.jar"/>
+	<classpathentry kind="lib" path="lib/HikariCP-3.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/jedis-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/jedis-3.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/logs-analysis-app.jar"/>
+	<classpathentry kind="lib" path="lib/logs-backup-app.jar"/>
+	<classpathentry kind="lib" path="lib/mybatis-3.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/mybatis-3.5.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.47.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.47-sources.jar"/>
+	<classpathentry kind="lib" path="lib/quartz-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/quartz-jobs-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.6.jar"/>
+	<classpathentry kind="lib" path="lib/protobuf-java-3.14.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
