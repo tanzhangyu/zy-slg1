@@ -1,0 +1,16 @@
+syntax="proto3";
+
+option java_package="com.zy.common.message.generate";
+option java_outer_classname="ResponeMessageProtoBuf";
+
+message GameResponeMsg{
+	int32 error = 1;
+	string cmd = 2;
+	oneof dataBody{
+		G2C_LoginParms G2C_LoginParms = 3;
+	}
+}
+
+message G2C_LoginParms {
+	int32 id = 1;
+}

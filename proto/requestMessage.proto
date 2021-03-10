@@ -1,0 +1,17 @@
+syntax="proto3";
+
+option java_package="com.zy.common.message.generate";
+option java_outer_classname="RequestMessageProtoBuf";
+
+message GameRequestMsg{
+	string cmd = 1;
+	int64 userUid =2;
+	oneof dataBody{
+		C2G_LoginParms C2G_LoginParms = 3;
+	}
+}
+
+message C2G_LoginParms {
+	string account=1;
+	string password=2;
+}
