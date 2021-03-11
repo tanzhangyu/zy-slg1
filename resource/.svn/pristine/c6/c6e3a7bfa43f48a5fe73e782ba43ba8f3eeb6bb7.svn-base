@@ -1,4 +1,0 @@
-id,yield_1.itemId,yield_1.maxYieldTotal,yield_1.efficiency ,yield_2.itemId,yield_2.maxYieldTotal,yield_2.efficiency ,yield_3.itemId,yield_3.maxYieldTotal,yield_3.efficiency 
-1,101,100,2,102,100,2,,,
-2,101,200,3,102,200,3,103,100,1
-3,101,300,5,102,300,5,103,200,2
