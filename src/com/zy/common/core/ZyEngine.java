@@ -4,10 +4,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.zy.common.constant.ServerConstants;
+import com.zy.common.db.MyBatisUtils;
 import com.zy.common.mq.MQUtils;
+import com.zy.common.utils.DataReader;
+import com.zy.common.utils.PropertiesReader;
 import com.zy.game.handler.ServerChannelInitializer;
-import com.zy.game.utils.DataReader;
-import com.zy.game.utils.PropertiesReader;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -41,6 +42,7 @@ public class ZyEngine {
 		try {
 			this.loadServerInfo();
 			DataReader.loadAllData();
+			MyBatisUtils.init();
 			MQUtils.getInstance().init();
 			ZyEngine.getInstance().start();
 		} catch (Exception e) {

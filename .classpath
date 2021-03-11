@@ -17,7 +17,7 @@
 	<classpathentry kind="lib" path="lib/jedis-3.0.1-sources.jar"/>
 	<classpathentry kind="lib" path="lib/logs-analysis-app.jar"/>
 	<classpathentry kind="lib" path="lib/logs-backup-app.jar"/>
-	<classpathentry kind="lib" path="lib/mybatis-3.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/mybatis-3.5.1.jar" sourcepath="lib/mybatis-3.5.1-sources.jar"/>
 	<classpathentry kind="lib" path="lib/mybatis-3.5.1-sources.jar"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.47.jar"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.47-sources.jar"/>

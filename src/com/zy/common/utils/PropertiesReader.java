@@ -1,4 +1,4 @@
-package com.zy.game.utils;
+package com.zy.common.utils;
 
 import java.io.FileInputStream;
 import java.util.HashMap;
